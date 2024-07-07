@@ -1,0 +1,2 @@
+# javascript
+for js files
