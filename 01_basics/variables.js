@@ -1,11 +1,19 @@
-"use strict"; //treat all js code as newer version
+/* let score="sneha"
 
-console.log(3+3)
+console.log(typeof score);
+console.log(typeof (score));
 
-console.log("sneha")
+
+let valueinno=Number(score)
+console.log(typeof valueinno);
+console.log(valueinno);
+ */
+//"33"===>33
+//"33abc"===>nan
+//true =>1
 
 
-console.log(typeof null);
+let loggedin=1
 
-console.log(typeof undefined);
-
+let booleanis=Boolean(loggedin)
+console.log(booleanis);
