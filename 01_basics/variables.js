@@ -1,15 +1,13 @@
-let value=3
-let negvalue=-value
-console.log(negvalue);
+/* console.log("2">1);
 
-let str1="hello sneha";
-let str2=" gauni";
+console.log("02">1);
+ */
+console.log(null>0);
 
-let str3=str1+str2;
-console.log(str3);
+console.log(null>=0);
 
-console.log("1"+2);
+console.log(null==0);
 
-console.log(1+2+"2");
+
 
 // node 01_basics/variables.js
