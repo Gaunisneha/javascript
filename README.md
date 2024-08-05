@@ -1,2 +1,2 @@
 # javascript
-for js files
+to learn js.
