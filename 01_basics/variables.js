@@ -32,8 +32,26 @@ const myfun = function(){
 console.log(typeof heros);
 
 
+//---------stack(primitive),  heap(non primitive)
 
 
+let myname="sneha gauni"
+
+let anothername=myname
+anothername="gauni sneha"
+console.log(myname);
+
+console.log(anothername);
+
+let user1={
+    email:"snehagauni@gmail.com",
+    upi:"user@ybl"
+}
+
+let user2=user1
+user2.email="gaunisneha123@.com"
+console.log(user1.email);
+console.log(user2.email);
 
 
 
