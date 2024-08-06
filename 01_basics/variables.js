@@ -1,15 +1,44 @@
-/* 
-console.log("2">1);
-console.log("02">1);
+/*
+primitive datatypes:  7 types
+String,Number,Boolean,null,undefined,Symbol,BigInt
+
+//reference (non primitive)
+
+array,objects,functions
 
 */
 
-console.log(null>0);
+const score=100
+const scorev=100.3
+const islogin=false
+const outside=null
+let useremail;
 
-console.log(null>=0);
+const id=Symbol('123')
+const anotherid=Symbol('123')
+console.log(id===anotherid);
+//const bigno=456789036474833n
 
-console.log(null==0);
+const heros=['shaktiman','naagraj','doga']
+let obj={
+    name:"sneha",
+    age:21
+}
 
-console.log("2"===2);
+const myfun = function(){
+    console.log("hello world"); 
+}
+
+console.log(typeof heros);
+
+
+
+
+
+
+
+
+
+
 
 // node 01_basics/variables.js
