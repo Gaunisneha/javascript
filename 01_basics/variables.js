@@ -1,11 +1,8 @@
 /*
 primitive datatypes:  7 types
 String,Number,Boolean,null,undefined,Symbol,BigInt
-
 //reference (non primitive)
-
 array,objects,functions
-
 */
 
 const score=100
@@ -30,13 +27,10 @@ const myfun = function(){
 }
 
 console.log(typeof heros);
-
-
 //---------stack(primitive),  heap(non primitive)
 
 
 let myname="sneha gauni"
-
 let anothername=myname
 anothername="gauni sneha"
 console.log(myname);
