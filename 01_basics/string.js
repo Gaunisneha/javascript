@@ -23,12 +23,8 @@ console.log(newstring1.trim());
 const url="https://sneha.com/sneha%20gauni"
 
 console.log(url.replace('%20','-'))
-
-
 console.log(url.includes('sneha'))
-
-
-console.log(gamename.split());
+console.log(gamename.split('-'));
 
 
 
